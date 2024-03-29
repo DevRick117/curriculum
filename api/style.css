@@ -1,0 +1,25 @@
+.container{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 30fr 5fr 5fr 6fr;
+    grid-template-rows: 100px;
+    grid-gap: 10px;
+}
+.pesquisa{
+    width: 20vh;
+    height: 20vh;
+}
+.cadastro{
+    width: 20vh;
+    height: 20vh;
+}
+.h1{
+    text-size-adjust: 50px;
+    color: #e21010;
+    text-shadow: 
+       -1px -1px 0px #000, 
+       -1px 1px 0px #000,                    
+        1px -1px 0px #000,                  
+        1px 0px 0px #000;
+        text-align: center; 
+}

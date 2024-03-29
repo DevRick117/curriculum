@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  nav {
+    float: left;
+    width: 40vh;
+    height: 100vh;
+    background: #4682B4;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 800px;
+  }
+  
+  section::after {
+    display: table;
+    clear: both;
+  }
+  
+  #fotoperfil {
+    width: 200px;
+    height: 200px;
+    background-color: #666;
+    border-radius: 100px;
+    margin: auto;
+    display: block;
+  }
+  
+  h1 {
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  h3 {
+    background-color: black;
+    color: #fff;
+  }
+  
+  .icone {
+    color: #0ecece;
+  }
+  
+  .dados {
+    color: #fff;
+    text-align: justify;
+  }
+  
+  .form_ano {
+    color: #00ffff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px; /* Corrigido de text-size para font-size */
+  }
+  
+  .formacao {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .idioma {
+    color: #00ffff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px; /* Corrigido de text-size para font-size */
+  }
+  
+  .idiomanv {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .resumo {
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .cargo {
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .empresa {
+    color: #000;
+    font-weight: bold;
+  }
+  
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media print {
+    @page {
+      margin-top: 60px;
+      margin-bottom: 60px;
+    }
+    body {
+      padding-top: 72px;
+      padding-bottom: 72px;
+    }
+  }
+  
